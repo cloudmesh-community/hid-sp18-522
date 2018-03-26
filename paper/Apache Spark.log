@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 MAR 2018 12:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 MAR 2018 12:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -202,16 +202,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
  []
 
 
-</Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparkfeatures.png, id=18, 716.6
-775pt x 717.68124pt>
-File: /Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparkfeatures.png Graphic 
-file (type png)
+</Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/sparkfeatures.png, id=18,
+ 716.6775pt x 717.68124pt>
+File: /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/sparkfeatures.png Gr
+aphic file (type png)
 
-<use /Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparkfeatures.png>
-Package pdftex.def Info: /Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparkfe
-atures.png used on input line 56.
+<use /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/sparkfeatures.png>
+Package pdftex.def Info: /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/s
+parkfeatures.png used on input line 56.
 (pdftex.def)             Requested size: 216.50308pt x 216.81pt.
- [2 </Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparkfeatures.png>]
+
+[2 </Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/sparkfeatures.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
@@ -237,30 +238,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
  []
 
 
-</Users/viaandad/cloudmesh/hid-sp18-522/Figures/Sparkarchitecture.png, id=25, 3
-28.22626pt x 154.5775pt>
-File: /Users/viaandad/cloudmesh/hid-sp18-522/Figures/Sparkarchitecture.png Grap
-hic file (type png)
+</Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/Sparkarchitecture.png, id
+=25, 328.22626pt x 154.5775pt>
+File: /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/Sparkarchitecture.pn
+g Graphic file (type png)
 
-<use /Users/viaandad/cloudmesh/hid-sp18-522/Figures/Sparkarchitecture.png>
-Package pdftex.def Info: /Users/viaandad/cloudmesh/hid-sp18-522/Figures/Sparkar
-chitecture.png used on input line 87.
+<use /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/Sparkarchitecture.png
+>
+Package pdftex.def Info: /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/S
+parkarchitecture.png used on input line 87.
 (pdftex.def)             Requested size: 306.94006pt x 144.54pt.
-
-[3]
+ [3]
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 
-</Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparksql.jpg, id=30, 376.40625p
-t x 211.54031pt>
-File: /Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparksql.jpg Graphic file 
-(type jpg)
+</Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/sparksql.jpg, id=30, 376.
+40625pt x 211.54031pt>
+File: /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/sparksql.jpg Graphic
+ file (type jpg)
 
-<use /Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparksql.jpg>
-Package pdftex.def Info: /Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparksq
-l.jpg used on input line 97.
+<use /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/sparksql.jpg>
+Package pdftex.def Info: /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/s
+parksql.jpg used on input line 97.
 (pdftex.def)             Requested size: 385.79591pt x 216.81pt.
 
 Overfull \hbox (40.79591pt too wide) in paragraph at lines 97--98
@@ -277,16 +278,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-[4 </Users/viaandad/cloudmesh/hid-sp18-522/Figures/Sparkarchitecture.png> </Use
-rs/viaandad/cloudmesh/hid-sp18-522/Figures/sparksql.jpg>]
-</Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparkstream.png, id=35, 1445.4p
-t x 813.0375pt>
-File: /Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparkstream.png Graphic fi
-le (type png)
+[4 </Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/Sparkarchitecture.png>
+ </Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/sparksql.jpg>]
+</Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/sparkstream.png, id=35, 1
+445.4pt x 813.0375pt>
+File: /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/sparkstream.png Grap
+hic file (type png)
 
-<use /Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparkstream.png>
-Package pdftex.def Info: /Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparkst
-ream.png used on input line 107.
+<use /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/sparkstream.png>
+Package pdftex.def Info: /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/s
+parkstream.png used on input line 107.
 (pdftex.def)             Requested size: 385.43317pt x 216.81pt.
 
 Overfull \hbox (40.43317pt too wide) in paragraph at lines 107--108
@@ -299,16 +300,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
  []
 
 
-</Users/viaandad/cloudmesh/hid-sp18-522/Figures/mlib.jpg, id=36, 640.3925pt x 4
-80.79625pt>
-File: /Users/viaandad/cloudmesh/hid-sp18-522/Figures/mlib.jpg Graphic file (typ
-e jpg)
- <use /Users/viaandad/cloudmesh/hid-sp18-522/Figures/mlib.jpg>
-Package pdftex.def Info: /Users/viaandad/cloudmesh/hid-sp18-522/Figures/mlib.jp
-g used on input line 117.
-(pdftex.def)             Requested size: 288.7798pt x 216.81pt.
+</Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/mlib.jpg, id=36, 640.3925
+pt x 480.79625pt>
+File: /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/mlib.jpg Graphic fil
+e (type jpg)
 
-[5 </Users/viaandad/cloudmesh/hid-sp18-522/Figures/sparkstream.png>]
+<use /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/mlib.jpg>
+Package pdftex.def Info: /Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/m
+lib.jpg used on input line 117.
+(pdftex.def)             Requested size: 288.7798pt x 216.81pt.
+ [5 </Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/sparkstream.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
@@ -323,7 +324,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-[6 </Users/viaandad/cloudmesh/hid-sp18-522/Figures/mlib.jpg>]
+[6 </Users/viaandad/cloudmesh/hid-sp18-522/paper/Figures/mlib.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
@@ -342,7 +343,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  1939 strings out of 492995
- 28034 string characters out of 6132704
+ 28160 string characters out of 6132704
  186554 words of memory out of 5000000
  5481 multiletter control sequences out of 15000+600000
  7259 words of font info for 26 fonts, out of 8000000 for 9000
@@ -356,7 +357,7 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Apache Spark.pdf" (10 pages, 451025 bytes).
+Output written on "Apache Spark.pdf" (10 pages, 451037 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
