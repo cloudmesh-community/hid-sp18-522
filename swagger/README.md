@@ -110,7 +110,7 @@
  
   * Sample curl request
   
-	  ```curl -H "Content-Type:application/json" -X GET http://localhost:8080/		Iris/Download ```
+	  ```curl -H "Content-Type:application/json" -X GET http://localhost:8080/Iris/Download ```
   
   * Sample json response for GET request 
   
@@ -128,7 +128,7 @@
   
   * Sample curl request
   
-	  ```curl -H "Content-Type:application/json" -X GET http://localhost:8080/			Iris/categories```
+	  ```curl -H "Content-Type:application/json" -X GET http://localhost:8080/Iris/categories```
  
   * Sample json response for GET request
   
@@ -147,7 +147,7 @@
 
 * Sample curl request
 	  
-	  ```curl -H "Content-Type:application/json" -X GET http://localhost:8080/			Iris/categories/categoryname (Categoryname should be either of the 			categories returned by Iris/categories endpoint)```
+	  ```curl -H "Content-Type:application/json" -X GET http://localhost:8080/Iris/categories/categoryname (Categoryname should be either of the 			categories returned by Iris/categories endpoint)```
 
  * Sample json response for GET request
  	
