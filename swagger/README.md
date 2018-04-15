@@ -45,7 +45,9 @@
   * ```curl -H "Content-Type:application/json" -X GET http://localhost:8080/Iris/categories```     
   
   
-  * ```curl http://127.0.0.1:8080/Iris/categories/categoryname```
+  * ```curl http://127.0.0.1:8080/Iris/categories/categoryname (Categoryname should be either of the categories returned by Iris/categories endpoint)```
+
+  
   
 
 * Get the container ID using following command
@@ -71,6 +73,10 @@
 * git clone the project.
 
 * change the directory to swagger folder
+
+* Ensure Python 2 environment is activated
+
+	* ``` pyenv activate env2 (Refer handbook for details ```
 
 * create the swagger server with following command
   
@@ -103,9 +109,11 @@
   * This endpoint access the url where Iris dataset is available and downloads the csv datafile to the server using the url
  
   * Sample curl request
-	  * ```curl -H "Content-Type:application/json" -X GET http://localhost:8080/Iris/Download```
+  
+	  ```curl -H "Content-Type:application/json" -X GET http://localhost:8080/		Iris/Download ```
   
   * Sample json response for GET request 
+  
 	```
 	Download {
 		model:	
@@ -119,9 +127,11 @@
   * The endpoint returns all three unique Iris flower class names 
   
   * Sample curl request
-	  * ```curl -H "Content-Type:application/json" -X GET http://localhost:8080/Iris/categories```
+  
+	  ```curl -H "Content-Type:application/json" -X GET http://localhost:8080/			Iris/categories```
  
   * Sample json response for GET request
+  
 	```
 	[
 		IrisCategories {
@@ -136,7 +146,8 @@
 * The endpoint returns all data for categoryname provided 
 
 * Sample curl request
-	  * ```curl -H "Content-Type:application/json" -X GET http://localhost:8080/Iris/categories/categoryname```
+	  
+	  ```curl -H "Content-Type:application/json" -X GET http://localhost:8080/			Iris/categories/categoryname (Categoryname should be either of the 			categories returned by Iris/categories endpoint)```
 
  * Sample json response for GET request
  	
