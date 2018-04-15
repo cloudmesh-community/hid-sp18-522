@@ -16,16 +16,14 @@ LATEX=pdflatex
 #LATEX=pydflatex -k
 
 
-
+all: dest
+	latexmk $(FLAGS) -pvc -view=pdf $(FILE)
 
 pdflatex:
 	pdflatex abstract
-	biber abstract
+	bibtex abstract
 	pdflatex abstract
 	pdflatex abstract
-
-all: dest
-	latexmk -jobname=$(FILE) $(FLAGS) -pvc -view=pdf $(FILE)
 
 clean:
 	rm -f	*.pdf *.bbl *.log *.blg *.aux *.out *.idx *.run.xml *.bcf *.toc
