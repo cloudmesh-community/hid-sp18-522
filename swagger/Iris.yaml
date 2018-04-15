@@ -1,0 +1,102 @@
+swagger: "2.0"
+info: 
+  version: "1.0.0"
+  title: "Iris Dataset"
+  description: "A simple service to download IRIS dataset from web and visualize different categories using swagger-2.0 specification and codegen"
+  termsOfService: "http://swagger.io/terms/"
+  contact: 
+    name: "Saurabh Swaroop"
+    email: sswaroop@iu.edu
+  license: 
+    name: "Apache"
+host: "localhost:8080"
+basePath: "/Iris"
+schemes: 
+  - "http"
+consumes: 
+  - "application/json"
+produces: 
+  - "application/json"
+paths: 
+  /Download:
+    get: 
+      summary: Iris Dataset
+      description: "Downloads Iris dataset from Web"
+      produces: 
+        - "application/json"
+      responses: 
+        "200":
+          description: "Download Succesfull Message"
+          schema: 
+            $ref: "#/definitions/Download"
+        "400":
+          description: Unexpected error while downloading file
+  /categories:
+    get: 
+      description: "Displays different categories of Iris Dataset"
+      produces: 
+        - "application/json"
+      responses: 
+        "200":
+          description: "Categories Display"
+          schema: 
+            type: array
+            items:
+              $ref: "#/definitions/IrisCategories"
+        "400":
+          description: Unexpected error while downloading file
+          
+  /categories/{categoryname}:
+    get: 
+      description: "Display data for a specific Iris flower category"
+      produces: 
+        - "application/json"
+      parameters:
+        - name: categoryname
+          in: path
+          description: Data of Flower category to be fethced
+          required: true
+          type: string
+      responses: 
+        "200":
+          description: "Categories Display"
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/IrisDisplay"
+definitions:
+  Download:
+    type: "object"
+    required: 
+      - "model"
+    properties: 
+      model:
+        type: "string"
+        
+  IrisCategories:
+    type: "object"
+    required: 
+      - "categories"
+    properties: 
+      categories:
+        type: "string"
+        
+  IrisDisplay:
+    type: "object"
+    required: 
+      - petallength
+      - petalwidth
+      - sepallength
+      - sepalwidth
+      - name
+    properties: 
+      petallength: 
+        type: "string"
+      petalwidth: 
+        type: "string"
+      sepallength: 
+        type: "string"
+      sepalwidth:
+        type: "string"
+      name: 
+        type: "string"
