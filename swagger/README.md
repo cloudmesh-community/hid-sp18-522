@@ -27,7 +27,11 @@
 
 * you should install docker.
 
-* change the directory to **swagger/Iris** folder.
+* change the directory to **swagger** folder.
+
+* Build the image from docker file
+
+	* ``` make docker-build ```
 
 * Start the service using following make command
   
