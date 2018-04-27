@@ -1,29 +1,27 @@
 \section{Amazon Fargate}
 
-`` AWS Fargate is a technology for Amazon ECS and EKS* that allows you to run 
-containers without having to manage servers or clusters. With AWS Fargate, you 
-no longer have to provision, configure, and scale clusters of virtual machines 
-to run containers. This removes the need to choose server types, decide when
-to scale your clusters, or optimize cluster packing. AWS Fargate removes the 
-need for you to interact with or think about servers or clusters. Fargate lets 
-you focus on designing and building your applications instead of managing
-the infrastructure that runs them.
+AWS Fargate is a technology built on top of Amazon elastic container
+services and Kubernetes services. It provides container management where
+there is no requirement of cluster or infrastructure management.
+Everything is handled at the container level and it scales seamlessly.
 
+Running a container locally over docker is easy but there is a huge
+overhead in running multiple containers in production like high
+availability, resiliency, latency, scheduling  and resource management.
+ECS made scheduling and orchestration easy but there are many tasks that
+it didn't handel like task definition,resource constraints,networking
+and security. Fargate takes care of most of these tasks except resource
+definition. Hence all the underlaying logistics are taken care by it.
 
-Amazon ECS and EKS have two modes: Fargate launch type and EC2 launch type.
-With Fargate launch type, all you have to do is package your application in 
-containers, specify the CPU and memory requirements, define networking and 
-IAM policies, and launch the application. EC2 launch type allows you to have 
-server-level, more granular control over the infrastructure that runs your
-container applications. With EC2 launch type, you can use Amazon ECS and EKS
-to manage a cluster of servers and schedule placement of containers on the 
-servers. Amazon ECS and EKS keeps track of all the CPU, memory and other 
-resources in your cluster, and also finds the best server for a container to
-run on based on your specified resource requirements. You are responsible
-for provisioning, patching, and scaling clusters of servers. You can decide
-which type of server to use, which applications and how many containers to
-run in a cluster to optimize utilization, and when you should add or remove
-servers from a cluster. EC2 launch type gives you more control of your serve
-clusters and provides a broader range of customization options, which might
-be required to support some specific applications or possible compliance and
-government requirements.``\cite{hid-sp18-522-fargate}
+Fargate uses the same task definition schema as ECS and can be launced by
+ECS APIs.
+
+Key features of Amazon Fargate:
+
+\begin{itemize}
+   \item Orchestration 
+   \item Enable running containers without server and cluster management
+   \item Eliminates the need to choose server types
+   \item Eliminates infrastructure management
+   \item Seamless scaling  
+\end{itemize}~\cite{hid-sp18-522-fargate}
